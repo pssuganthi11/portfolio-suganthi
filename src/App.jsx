@@ -28,10 +28,8 @@ function App() {
 
         <section id="project">
           <Project />
-        </section>
-
-      
-
+        </section>   
+        
         <section id="contact">
           <Contact />
         </section>

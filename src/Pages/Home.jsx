@@ -30,7 +30,7 @@ function Home() {
 
         <div className="flex flex-col md:flex-row gap-3 justify-center md:justify-center mt-4">
           <button className="bg-[#F5AFAF] w-full md:w-40 p-2 rounded shadow-lg text-lg hover:bg-[#f29898] transition-colors text-white font-bold">
-            <a href="/contact#contact">Hire Me</a>
+            <a href="/#contact">Hire Me</a>
           </button>
 
           <button className="bg-[#F5AFAF] w-full md:w-40 p-2 rounded shadow-lg text-lg hover:bg-[#f29898] transition-colors text-white font-bold">
