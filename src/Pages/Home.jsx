@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import photo from "../assets/Images/photo.png";
 
 function Home() {
@@ -26,13 +25,12 @@ function Home() {
         <h3 className="text-2xl font-semibold">FullStack Developer ✨</h3>
 
         <p className="text-lg md:text-xl opacity-90">
-          I build complete, responsive, and scalable web applications and turn
-          ideas into fast, production-ready applications.
+       I specialize in building responsive and scalable web applications, converting ideas into fast, reliable, and production-ready digital solutions.
         </p>
 
         <div className="flex flex-col md:flex-row gap-3 justify-center md:justify-center mt-4">
           <button className="bg-[#F5AFAF] w-full md:w-40 p-2 rounded shadow-lg text-lg hover:bg-[#f29898] transition-colors text-white font-bold">
-            <a href="/contact">Hire Me</a>
+            <a href="/contact#contact">Hire Me</a>
           </button>
 
           <button className="bg-[#F5AFAF] w-full md:w-40 p-2 rounded shadow-lg text-lg hover:bg-[#f29898] transition-colors text-white font-bold">

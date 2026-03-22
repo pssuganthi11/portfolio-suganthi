@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
@@ -8,28 +7,38 @@ import Project from "./Pages/Project";
 import Education from "./Pages/Education";
 import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ThemeProvider from "./context/ThemeContext";
 
 function App() {
   return (
-    <div>
-    <ThemeProvider >
-
-      <BrowserRouter>
+    <ThemeProvider>
       <Navbar />
-        <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
+      <div>
+        <section id="home">
+          <Home />
+        </section>
+
+        <section id="about">
+          <About />
+        </section>
+
+        <section id="skills">
+          <Skills />
+        </section>
+
+        <section id="project">
+          <Project />
+        </section>
+
+      
+
+        <section id="contact">
+          <Contact />
+        </section>
+      </div>
+
       <Footer />
     </ThemeProvider>
-    
-    </div>
   );
 }
 

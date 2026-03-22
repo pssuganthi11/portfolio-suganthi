@@ -54,7 +54,7 @@ export default function Projects() {
 
   return (
     <section className=" animate-fadeUp w-full flex flex-col text-center items-center text-[#9f7b75] mt-10 sm:mt-20 lg:mb-10">
-      <h1 className="text-2xl border-b-4 rounded text-center font-bold">
+      <h1 className="text-2xl text-[#e6a4a4] rounded text-center font-bold">
         My Works
       </h1>
 

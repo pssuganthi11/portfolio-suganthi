@@ -13,12 +13,14 @@ import {
   NextIcon,
   ReactIcon,
   DockerIcon,
+  BootstrapIcon
 } from "../Components/icon";
 
 export default function Skills() {
-  const skills = [
+ const skills = [
     { name: "HTML", icon: <HtmlIcon /> },
     { name: "CSS", icon: <CssIcon /> },
+    { name: "Bootstrap", icon: <BootstrapIcon /> }, 
     { name: "JavaScript", icon: <JsIcon /> },
     { name: "React", icon: <ReactIcon /> },
     { name: "Tailwind", icon: <TailwindIcon /> },
@@ -32,7 +34,6 @@ export default function Skills() {
     { name: "Nextjs", icon: <NextIcon /> },
     { name: "Ai sdk", icon: <DockerIcon /> },
   ];
-
   let rows = [];
   let index = 0;
 
@@ -82,7 +83,7 @@ export default function Skills() {
 
   return (
     <section className="text-center mt-20 px-4">
-      <h1 className="text-2xl md:text-3xl font-bold mb-10 text-[#9f7b75]">
+      <h1 className="text-2xl md:text-3xl font-bold mb-10 text-[#e6a4a4]">
         Skills
       </h1>
       {rows}
