@@ -5,7 +5,7 @@ function Home() {
   const [text, setText] = useState("");
 
   useEffect(() => {
-    const name = "I'm Suganthi Pattappan";
+    const name = "Suganthi Pattappan";
     let i = 0;
 
     const timer = setInterval(() => {
@@ -19,7 +19,7 @@ function Home() {
     <section className="w-full max-w-screen-2xl mx-auto flex flex-col overflow-x-hidden md:flex-row items-center justify-between gap-10 md:gap-20 mt-10 2xl:mt-20 px-10  text-[#9f7b75] animate-fadeUp">
       <div className="z-10 flex flex-col gap-4 text-center md:text-center ">
         <h1 className="text-4xl md:text-6xl font-monospace 2xl:text-5xl leading-tight">
-          {text}
+          I'm  {text}
         </h1>
 
         <h3 className="text-2xl font-semibold">FullStack Developer ✨</h3>

@@ -6,38 +6,51 @@ export default function Journey() {
       year: "2016 - 2020",
       title: "Bachelor of Engineering (CSE)",
       place: "Anna University",
-      
     },
   ];
 
-const experience = [
-  {
-    year: "2025 - Present",
-    title: "Full Stack Developer",
-    place: "CyberDude Networks Pvt. Ltd.",
-    responsibilities: [
-      "Developed scalable full-stack web applications using MERN stack (MongoDB, Express, React, Node.js)",
-      "Built responsive and user-friendly UI with React.js, Tailwind CSS, and modern JavaScript (ES6+)",
-      "Designed and integrated RESTful APIs, ensuring efficient client-server communication",
-      "Implemented backend logic, authentication, and data handling using Node.js and Express.js",
-      "Collaborated in Agile development environments using Git, GitHub, and version control workflows",
-      "Optimized application performance, improving load time and responsiveness",
-    ],
-  },
-  {
-    year: "2021 - 2023",
-    title: "Frontend Developer",
-    place: "Decision Mind Pvt Ltd",
-    responsibilities: [
-      "Developed dynamic and responsive user interfaces using React.js and modern CSS frameworks",
-      "Converted UI/UX designs into reusable and maintainable components",
-      "Improved website performance through code optimization and efficient rendering techniques",
-      "Worked closely with backend teams for seamless API integration",
-      "Ensured cross-browser compatibility and mobile responsiveness",
-      "Maintained clean, scalable, and modular code following best practices",
-    ],
-  },
-];
+  const experience = [
+    {
+      year: "2025 - present",
+      title: "Frontend Engineer",
+      place: "Freelancer",
+      responsibilities: [
+        "Developed and maintained a responsive business website for an architecture firm using WordPress and PHP.",
+        "Designed and customized frontend modules to showcase projects, services, and company information.",
+        "Built reusable UI components and ensured a clean, user-friendly interface.",
+        "Performed continuous website updates and content management through cPanel.",
+        "Managed hosting, file deployment, and server-side configurations using cPanel.",
+        "Optimized website performance, responsiveness, and cross-browser compatibility.",
+        "Collaborated with stakeholders to implement design changes and improve user experience.",
+      ],
+    },
+    {
+      year: "2024 - 2025",
+      title: "web Developer",
+      place: "Techhyve connect",
+      responsibilities: [
+        "Developed scalable full-stack web applications using MERN stack (MongoDB, Express, React, Node.js)",
+        "Built responsive and user-friendly UI with React.js, Tailwind CSS, and modern JavaScript (ES6+)",
+        "Designed and integrated RESTful APIs, ensuring efficient client-server communication",
+        "Implemented backend logic, authentication, and data handling using Node.js and Express.js",
+        "Collaborated in Agile development environments using Git, GitHub, and version control workflows",
+        "Optimized application performance, improving load time and responsiveness",
+      ],
+    },
+    {
+      year: "2021 - 2023",
+      title: "Frontend Developer",
+      place: "Decision Mind Pvt Ltd",
+      responsibilities: [
+        "Developed dynamic and responsive user interfaces using React.js and modern CSS frameworks",
+        "Converted UI/UX designs into reusable and maintainable components",
+        "Improved website performance through code optimization and efficient rendering techniques",
+        "Worked closely with backend teams for seamless API integration",
+        "Ensured cross-browser compatibility and mobile responsiveness",
+        "Maintained clean, scalable, and modular code following best practices",
+      ],
+    },
+  ];
 
   return (
     <section className="py-24 px-6">
@@ -52,7 +65,6 @@ const experience = [
           </p>
         </div>
 
-       
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
           {/* LEFT SECTION: EXPERIENCE */}
           <div>
@@ -149,7 +161,6 @@ const experience = [
                     <p className="text-gray-500 font-medium mb-2">
                       {item.place}
                     </p>
-                    
                   </div>
                 </div>
               ))}

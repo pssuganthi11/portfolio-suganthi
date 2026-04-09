@@ -5,9 +5,18 @@ import blogsite from "../assets/Images/blogsite.png";
 import profilecard from "../assets/Images/profilecard.png";
 import coffeeshop from "../assets/Images/coffee shop.png";
 import jsbuilds from "../assets/Images/jsimg.png";
+import TourConn from "../assets/Images/tourconn.png";
+import Dailywaily from "../assets/Images/dailywaily.png";
+
 
 export default function Projects() {
   const projects = [
+      {
+      title: "TourConn",
+      image: TourConn,
+      link: "https://tourconn-web-ui.vercel.app/",
+      github: "https://github.com/pssuganthi11/Tourconn_web_ui",
+    },
     {
       title: "Music Downloader",
       image: Musicdownloader,
@@ -49,6 +58,12 @@ export default function Projects() {
       image: jsbuilds,
       link: "https://suganthi-js.vercel.app/",
       github: "https://github.com/pssuganthi11/suganthi-js",
+    },
+     {
+      title: "Daily Waily",
+      image: Dailywaily,
+      link: "https://dailywaily.vercel.app/",
+      github: "https://github.com/pssuganthi11/Dailywaily",
     },
   ];
 
